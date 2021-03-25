@@ -1,122 +1,164 @@
-<?php include'header.php' ;?>
+<?php include 'header1.php' ;?>
 
-        <!-- Start Page Banner -->
-        <div class="page-title-area">
-            <div class="container">
-                <div class="page-title-content">
-                    <h2>Contact</h2>
-
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li>Contact</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- End Page Banner -->
-
-        <!-- Start Contact Area -->
-        <section class="contact-area ptb-50">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 col-md-12">
-                        <div class="contact-form">
-                            <div class="tile">
-                                <h3>Leave us a Message</h3>
-                                <p>Your email address will not be published. Required fields are marked *</p>
-                            </div>
-
-                            <form id="contactForm">
-                                <div class="row">
-                                    <div class="col-lg-12 col-md-12">
-                                        <div class="form-group">
-                                            <label>Message*</label>
-
-                                            <textarea name="message" id="message" cols="30" rows="5" required data-error="Please enter your message" class="form-control"></textarea>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="form-group">
-                                            <label>Your Name*</label>
-
-                                            <input type="text" name="name" id="name" class="form-control" required data-error="Please enter your name">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="form-group">
-                                            <label>Email address*</label>
-
-                                            <input type="email" name="email" id="email" class="form-control" required data-error="Please enter your email">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-md-12">
-                                        <div class="form-group">
-                                            <label>Phone*</label>
-
-                                            <input type="text" name="phone_number" id="phone_number" class="form-control" required data-error="Please enter your phone number">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-md-12">
-                                        <div class="form-group">
-                                            <label>Subject*</label>
-
-                                            <input type="text" name="subjects" id="subjects" class="form-control" required data-error="Please enter your subjects">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12 col-md-12">
-                                        <button type="submit" class="default-btn">
-                                            Send Message
-                                            <span></span>
-                                        </button>
-                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-5 col-md-12">
-                        <div class="contact-information">
-                            <h3>Visit us</h3>
-
-                            <ul class="contact-list">
-                                <li><i class='bx bx-map'></i> Address: <span>4848 Hershell Hollow Road, Bothell, WA 89076</span></li>
-                                <li><i class='bx bx-phone-call'></i> Phone: <a href="tel:+15143214567">+1 (514) 321-4567</a></li>
-                                <li><i class='bx bx-envelope'></i> Email: <a href="mailto:hello@ejon.com">hello@ejon.com</a></li>
-                            </ul>
-
-                            <h4>Hours of operation:</h4>
-                            <ul class="opening-hours">
-                                <li>Monday: <span>08:00am-10:00pm</span></li>
-                                <li>Tuesday: <span>08:00am-10:00pm</span></li>
-                                <li>Wednesday: <span>08:00am-10:00pm</span></li>
-                                <li>Thursday: <span>08:00am-10:00pm</span></li>
-                                <li>Friday: <span>08:00am-10:00pm</span></li>
-                                <li>Saturday: <span>08:00am-10:00pm</span></li>
-                                <li>Sunday: <span>Closed</span></li>
-                            </ul>
-                        </div>
+   <head>
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!--====== Title ======-->
+    <title>Contact Us - Sight Dream Services | Multipurpose Business</title>
+	</head>
+	
+    <!--====== PAGE BANNER PART START ======-->
+    
+    <section class="page-banner bg_cover pt-100 pb-100" style="background-image: url(assets/images/page-banner.jpg)" data-overlay="4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-content">
+                        <h3>Contact</h3>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- End Contact Area -->
-
-        <!-- Map -->
-        <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9476519598093!2d-73.99185268459418!3d40.74117737932881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a3f81d549f%3A0xb2a39bb5cacc7da0!2s175%205th%20Ave%2C%20New%20York%2C%20NY%2010010%2C%20USA!5e0!3m2!1sen!2sbd!4v1588746137032!5m2!1sen!2sbd"></iframe>
         </div>
-        <!-- End Map -->
-        
-<?php include'footer.php' ;?>
+    </section>
+    
+    <!--====== PAGE BANNER PART ENDS ======-->
+   
+    <!--====== BREADCRUMB PART START ======-->
+    
+    <div class="breadcrumb-area pt-30 pb-30">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--====== BREADCRUMB PART ENDS ======-->
+    
+    <!--====== CONTACT PAGE PART START ======-->
+    
+    <section class="contact-page pt-70 pb-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-title pt-45 pb-45">
+                        <h6>Contact Us</h6>
+                        <h2>keep in touch</h2>
+                    </div> <!-- section title -->
+                    <div class="contact-form">
+                        <form id="contact-form" action="https://thepixelcurve.com/html/businet/businet/business-v1/assets/contact.php" method="post" data-toggle="validator">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="single-input form-group">
+                                        <input type="text" name="name"  placeholder="Your name" data-error="Name is required." required="required">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>  <!-- single input -->
+                                <div class="col-md-6">
+                                    <div class="single-input form-group">
+                                        <input type="email" name="email" placeholder="Email" data-error="Valid email is required." required="required">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div> <!-- single input -->
+                                <div class="col-md-6">
+                                    <div class="single-input form-group">
+                                        <input type="text" name="subject" placeholder="Subject" data-error="Subject is required." required="required">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div> <!-- single input -->
+                                <div class="col-md-6">
+                                    <div class="single-input form-group">
+                                        <input type="text" name="phone" placeholder="Phone" data-error="Phone is required." required="required">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div> <!-- single input -->
+                                <div class="col-md-12">
+                                    <div class="single-input form-group">
+                                        <textarea placeholder="Messege" name="message" data-error="Please,leave us a message." required="required"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div> <!-- single input -->
+                                <p class="form-message"></p>
+                                <div class="col-md-12">
+                                    <div class="single-input form-group">
+                                        <button class="main-btn" type="submit">Submit</button>
+                                    </div>
+                                </div> <!-- single input -->
+                            </div> <!-- row -->
+                        </form>
+                    </div> <!-- contact form -->
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="contact-info pt-20">
+                        <ul>
+                            <li>
+                                <div class="single-info">
+                                    <div class="info-icon">
+                                        <i class="fa fa-home"></i>
+                                    </div>
+                                    <div class="info-content">
+                                        <p>Visit Our Office & Head office</p>
+                                        <p>No: 135/4,Neruda Bazaar Street,<br>Uthukottai, Tiruvallur (Dt),<br> Chennai, Tamil Nadu-602026</p>
+                                    </div>
+                                </div> <!-- single info -->
+                            </li>
+                            <li>
+                                <div class="single-info">
+                                    <div class="info-icon">
+                                        <i class="fa fa-phone"></i>
+                                    </div>
+                                    <div class="info-content">
+                                        <p>+(91) 9003248036</p>
+                                        <p>+(91) 9791646600</p>
+                                    </div>
+                                </div> <!-- single info -->
+                            </li>
+                            <li>
+                                <div class="single-info">
+                                    <div class="info-icon">
+                                        <i class="fa fa-envelope-o"></i>
+                                    </div>
+                                    <div class="info-content">
+                                        <p>info@sightdreamservices.com</p>
+                                     </div>
+                                </div> <!-- single info -->
+                            </li>
+                        </ul>
+                    </div> <!-- contact info -->
+                    <div id="contact-map" class="mt-40"></div> <!-- contact Map -->
+                </div>
+            </div> <!-- row --> 
+        </div> <!-- container -->
+    </section>
+    
+    <!--====== CONTACT PAGE PART ENDS ======-->
+   
+    <!--====== CALL TO ACTION PART START ======-->
+    
+    <section class="call-to-action-2 bg_cover pt-110 pb-120" style="background-image: url(assets/images/bg.jpg)" data-overlay="7">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <div class="action-content-2 text-center">
+                        <h2 class="mb-50">Call Now For Immediate Consultations & free assistance</h2>
+                        <a href="#" class="main-btn"><img src="assets/images/icon/phone-1.png" alt=""> +(91) 9003248036</a>
+                    </div> <!-- action content 2 -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+    
+    <!--====== CALL TO ACTION PART ENDS ======-->
+   
+<?php include 'footer.php' ;?>

@@ -1,288 +1,178 @@
-        <!-- Start Footer Area -->
-        <section class="footer-area pt-100 pb-70">
+    <!--====== FOOTER PART START ======-->
+    
+    <footer class="footer-area">
+        <div class="footer-widgets pt-40 pb-80">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-footer-widget">
-                            <h2>Get in Touch</h2>
-    
-                            <ul class="footer-contact-info">
-                                <li>
-                                    <span>Address:</span> 
-                                    <a href="#" target="_blank">4848 Hershell Hollow Road Bothell, WA 89076</a>
-                                </li>
-                                <li>
-                                    <span>Phone:</span> 
-                                    <a href="tel:+15143214567">+1 (514) 321-4567</a>
-                                </li>
-                                <li>
-                                    <span>Email:</span> 
-                                    <a href="mailto:hello@ejon.com">hello@ejon.com</a>
-                                </li>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-about pt-40">
+                            <div class="footer-logo mb-20">
+                                <a href="index.php"><img src="assets/images/sds.png" alt="Logo"></a>
+                            </div> <!-- footer logo -->
+                            <p>Through our team of professional editors, journalists and vetted experts, we publish new content daily.</p>
+                            <ul class="social mt-25">
+                                <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
-                            <ul class="footer-social">
-                                <li>
-                                    <a href="#" target="_blank">
-                                        <i class='bx bxl-facebook'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" target="_blank">
-                                        <i class='bx bxl-instagram'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" target="_blank">
-                                        <i class='bx bxl-pinterest-alt'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" target="_blank">
-                                        <i class='bx bxl-twitter'></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                        </div> <!-- footer about -->
                     </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-footer-widget">
-                            <h2>Policies</h2>
-    
-                            <ul class="quick-links">
-                                <li>
-                                    <a href="#">Shipping And Delivery</a>
-                                </li>
-                                <li>
-                                    <a href="#">Payment Method</a>
-                                </li>
-                                <li>
-                                    <a href="#">How to Shop</a>
-                                </li>
-                                <li>
-                                    <a href="#">Terms And Conditions</a>
-                                </li>
-                                <li>
-                                    <a href="#">Privacy Policy</a>
-                                </li>
-                                <li>
-                                    <a href="#">Returns</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-footer-widget">
-                            <h2>Support</h2>
-    
-                            <ul class="quick-links">
-                                <li>
-                                    <a href="#">My Account</a>
-                                </li>
-                                <li>
-                                    <a href="#">Order Tracking</a>
-                                </li>
-                                <li>
-                                    <a href="#">Contact Us</a>
-                                </li>
-                                <li>
-                                    <a href="#">Customer Services</a>
-                                </li>
-                                <li>
-                                    <a href="#">FAQs</a>
-                                </li>
-                                <li>
-                                    <a href="#">Help Desk</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-footer-widget">
-                            <h2>Join Our Newsletter</h2>
-    
-                            <div class="newsletter-item">
-                                <div class="newsletter-content">
-                                    <p>Subscribe to the newsletter for all the latest updates</p>
-                                </div>   
-
-                                <form class="newsletter-form" data-toggle="validator">
-                                    <input type="email" class="input-newsletter" placeholder="Email address" name="EMAIL" required autocomplete="off">
-            
-                                    <button type="submit">Subscribe</button>
-                                    <div id="validator-newsletter" class="form-result"></div>
-                                </form>
+                    <div class="col-lg-2 col-md-3 col-6">
+                        <div class="footer-link pt-40">
+                            <div class="footer-title">
+                                <h5>Main Links</h5>
                             </div>
+                            <ul class="mt-20">
+                                <li><a href="index.php"><i class="fa fa-angle-right"></i>Home</a></li>
+                                <li><a href="about.php"><i class="fa fa-angle-right"></i>About us</a></li>
+                                <li><a href="services.php"><i class="fa fa-angle-right"></i>Career</a></li>
+                                <li><a href="blog.php"><i class="fa fa-angle-right"></i>Cases</a></li>
+                                <li><a href="team.php"><i class="fa fa-angle-right"></i>Team</a></li>
+                            </ul>
+                        </div> <!-- footer link -->
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6">
+                        <div class="footer-link pt-40">
+                            <div class="footer-title">
+                                <h5>Services</h5>
+                            </div>
+                            <ul class="mt-20">
+                                <li><a href="#"><i class="fa fa-angle-right"></i>IT Services</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>IT Support</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>IT Consulation</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>Product & Solutions</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i>Manpower</a></li>
+                            </ul>
+                        </div> <!-- footer link -->
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-info pt-40">
+                            <div class="footer-title">
+                                <h5>Contact</h5>
+                            </div>
+                            <ul class="mt-25">
+                                <li>
+                                    <div class="single-info">
+                                        <div class="icon">
+                                            <i class="fa fa-home"></i>
+                                        </div>
+                                        <div class="content pl-35">
+                                            <p>No: 135/4,Neruda Bazaar Street,Uthukottai, Tiruvallur (Dt), Chennai, Tamil Nadu-602026</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-info">
+                                        <div class="icon">
+                                            <i class="fa fa-phone"></i>
+                                        </div>
+                                        <div class="content pl-35">
+                                            <p>+(91) 9003248036</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-info">
+                                        <div class="icon">
+                                            <i class="fa fa-envelope-o"></i>
+                                        </div>
+                                        <div class="content pl-35">
+                                            <p>info@sightdreamservices.com</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Footer Area -->
-
-        <!-- Start Copy Right Area -->
-        <div class="copyright-area">
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer widgets -->
+        <div class="footer-copyright pt-15 pb-25">
             <div class="container">
-                <div class="copyright-area-content">
-                    <p>
-                        Copyright @2020 Xavier. All Rights Reserved by
-                        <a href="https://techscraft.net/" target="_blank">Xavier</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- End Copy Right Area -->
-
-        <!-- Start Go Top Area -->
-        <div class="go-top">
-            <i class='bx bx-up-arrow-alt'></i>
-        </div>
-        <!-- End Go Top Area -->
-
-        <!-- Start QuickView Modal Area -->
-        <div class="modal fade productsQuickView" id="productsQuickView" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class='bx bx-x'></i></span>
-                    </button>
-
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="products-details-image">
-                                <ul class="products-details-image-slides">
-                                    <li><img src="assets/img/quick-view/quick-view-1.jpg" alt="image"></li>
-                                    <li><img src="assets/img/quick-view/quick-view-2.jpg" alt="image"></li>
-                                    <li><img src="assets/img/quick-view/quick-view-3.jpg" alt="image"></li>
-                                </ul>
-    
-                                <div class="slick-thumbs">
-                                    <ul>
-                                        <li><img src="assets/img/quick-view/quick-view-1.jpg" alt="image"></li>
-                                        <li><img src="assets/img/quick-view/quick-view-2.jpg" alt="image"></li>
-                                        <li><img src="assets/img/quick-view/quick-view-3.jpg" alt="image"></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6">
-                            <div class="product-content">
-                                <h3>Bluetooth Headphones</h3>
-
-                                <div class="product-review">
-                                    <div class="rating">
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                        <i class='bx bxs-star'></i>
-                                    </div>
-                                </div>
-
-                                <div class="price">
-                                    <span class="old-price">$150.00</span>
-                                    <span class="new-price">$75.00</span>
-                                </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com modo consequat.</p>
-
-                                <ul class="products-info">
-                                    <li><span>Availability:</span> <a href="#">In stock</a></li>
-                                    <li><span>SKU:</span> <a href="#">L458-25</a></li>
-                                </ul>
-
-                                <div class="products-color-switch">
-                                    <p class="available-color"><span>Color</span> : 
-                                        <a href="#" style="background: #a53c43;"></a>
-                                        <a href="#" style="background: #192861;"></a>
-                                        <a href="#" style="background: #c58a84;"></a>
-                                        <a href="#" style="background: #ecc305;"></a>
-                                        <a href="#" style="background: #000000;"></a>
-                                        <a href="#" style="background: #808080;"></a>
-                                    </p>
-                                </div>
-
-                                <div class="product-quantities">
-                                    <span>Quantities:</span>
-
-                                    <div class="input-counter">
-                                        <span class="minus-btn">
-                                            <i class='bx bx-minus'></i>
-                                        </span>
-                                        <input type="text" value="1">
-                                        <span class="plus-btn">
-                                            <i class='bx bx-plus'></i>
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <div class="product-add-to-cart">
-                                    <button type="submit" class="default-btn">
-                                        <i class="flaticon-shopping-cart"></i>
-                                        Add to cart
-                                        <span></span>
-                                    </button>
-                                </div>
-    
-                                <div class="products-share">
-                                    <ul class="social">
-                                        <li><span>Share:</span></li>
-                                        <li>
-                                            <a href="#" target="_blank"><i class='bx bxl-facebook'></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#" target="_blank"><i class='bx bxl-twitter'></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#" target="_blank"><i class='bx bxl-instagram'></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="copyright pt-10 text-center text-md-left">
+                            <p>&copy; Copyrights 2020 Sight Dream Services All rights reserved. </p>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <!-- End QuickView Modal Area -->
+                    <div class="col-md-6">
+                        <div class="copyright pt-10 text-center text-md-right">
+                            <p>Designed by<a href="https://www.zauca.com/">zauca</a></p>
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer-copyright -->
+    </footer>
+    
+    <!--====== FOOTER PART ENDS ======-->
+   
+    <!--====== BACK TO TOP PART START ======-->
+    
+    <a href="#" class="back-to-top">
+        <i class="fa fa-angle-up"></i>
+    </a>
+    
+    <!--====== BACK TO TOP PART ENDS ======-->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--====== jquery js ======-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
 
-        <!-- Jquery Slim JS -->
-        <script src="assets/js/jquery.min.js"></script>
-        <!-- Popper JS -->
-        <script src="assets/js/popper.min.js"></script>
-        <!-- Bootstrap JS -->
-        <script src="assets/js/bootstrap.min.js"></script>
-        <!-- Meanmenu JS -->
-        <script src="assets/js/jquery.meanmenu.js"></script>
-        <!-- Owl Carousel JS -->
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <!-- Magnific Popup JS -->
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <!-- Nice Select JS -->
-        <script src="assets/js/jquery.nice-select.min.js"></script>
-        <!-- Slick JS -->
-        <script src="assets/js/slick.min.js"></script>
-        <!-- Odometer JS -->
-        <script src="assets/js/odometer.min.js"></script>
-        <!-- Appear JS -->
-        <script src="assets/js/jquery.appear.js"></script>
-        <!-- Jquery Ui JS -->
-        <script src="assets/js/jquery-ui.min.js"></script>
-        <!-- Ajaxchimp JS -->
-		<script src="assets/js/jquery.ajaxchimp.min.js"></script>
-		<!-- Form Validator JS -->
-		<script src="assets/js/form-validator.min.js"></script>
-		<!-- Contact JS -->
-        <script src="assets/js/contact-form-script.js"></script>
-        <!-- Wow JS -->
-        <script src="assets/js/wow.min.js"></script>
-        <!-- Custom JS -->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+    
+    <!--====== Isotope js ======-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    
+    <!--====== Images Loaded js ======-->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    
+    <!--====== Meanmenu js ======-->
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    
+    <!--====== Counter Up js ======-->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    
+    <!--====== Nice Select js ======-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    
+    <!--====== Nice Number js ======-->
+    <script src="assets/js/jquery.nice-number.min.js"></script>
+    
+    <!--====== Validator js ======-->
+    <script src="assets/js/validator.min.js"></script>
+    
+    <!--====== Ajax Contact js ======-->
+    <script src="assets/js/ajax-contact.js"></script>
+    
+    <!--====== WOW js ======-->
+    <script src="assets/js/wow.min.js"></script>
+    
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+    
+    <!--====== Map js ======-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ"></script>
+    <script src="assets/js/map-script.js"></script>
+
+</body>
 
 </html>

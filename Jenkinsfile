@@ -7,3 +7,4 @@ git branch: 'drago', credentialsId: 'GitHub_123', url: 'https://github.com/dhamo
  stage('Building-Infra') {
     sh 'docker build -t $dockerimg:$version . '
 }
+}

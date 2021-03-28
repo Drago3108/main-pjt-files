@@ -16,4 +16,7 @@ git branch: 'drago', credentialsId: 'GitHub_123', url: 'https://github.com/dhamo
           docker push awsid.dkr.ecr.us-west-2.amazonaws.com/pjt:$version
  '''
  }
+ stage ('AWS Resource Creation') {
+     sh ''' cd tfproject && terraform init && terraform apply -auto-approve'''
+ }
 }
